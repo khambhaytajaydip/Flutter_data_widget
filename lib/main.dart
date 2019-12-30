@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         'Edittext': (BuildContext context) => EditTextWidget(),
         'ProgressBar':(BuildContext context) => ProgressBarWidget(),
         'API calling':(BuildContext context) => ApiCalling(),
-        'Darabase':(BuildContext context) => DatabaseActivity(),
+        'Database':(BuildContext context) => DatabaseActivity(),
 
       },
     );
