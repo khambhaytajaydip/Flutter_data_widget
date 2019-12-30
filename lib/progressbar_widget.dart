@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 
-class ProgressBarWidget extends StatefulWidget {
-
+class ProgressBarWidget extends StatelessWidget {
   @override
-  State<StatefulWidget> createState() {
+  Widget build(BuildContext context) {
     return _simpleProgressBar();
   }
 }
 
-_simpleProgressBar() => Center(
-      child: CircularProgressIndicator(
-        backgroundColor: Colors.blue,
+_simpleProgressBar() => Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(),
+      body: Center(
+        child: CircularProgressIndicator(
+          backgroundColor: Colors.blue,
+        ),
       ),
     );

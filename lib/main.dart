@@ -4,6 +4,7 @@ import 'package:test_flutter/api_calling.dart';
 import 'package:test_flutter/appbar_widget.dart';
 import 'package:test_flutter/button_widget.dart';
 import 'package:test_flutter/container_widget.dart';
+import 'package:test_flutter/database_activity.dart';
 import 'package:test_flutter/progressbar_widget.dart';
 import 'package:test_flutter/row_widget.dart';
 import 'package:test_flutter/stack_widget.dart';
@@ -35,6 +36,8 @@ class MyApp extends StatelessWidget {
         'Edittext': (BuildContext context) => EditTextWidget(),
         'ProgressBar':(BuildContext context) => ProgressBarWidget(),
         'API calling':(BuildContext context) => ApiCalling(),
+        'Darabase':(BuildContext context) => DatabaseActivity(),
+
       },
     );
   }

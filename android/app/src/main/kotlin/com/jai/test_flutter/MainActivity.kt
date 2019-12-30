@@ -1,4 +1,4 @@
-package com.spec.test_flutter
+package com.jai.test_flutter
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
