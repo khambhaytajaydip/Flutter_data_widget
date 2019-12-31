@@ -30,6 +30,10 @@ dependencies:
   path_provider: 1.5.1
   # local preferences
   shared_preferences: 0.5.6
+  #Image picker
+  image_picker: 0.6.2+3
+  #Permission Handler
+  permission_handler: 4.0.0
 
 dev_dependencies:
   flutter_test:

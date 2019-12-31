@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:test_flutter/Edittext_widget.dart';
 import 'package:test_flutter/api_calling.dart';
@@ -11,6 +12,7 @@ import 'package:test_flutter/stack_widget.dart';
 import 'package:test_flutter/text_widget.dart';
 
 import 'column_widget.dart';
+import 'image_capture.dart';
 
 void main() => runApp(MyApp());
 
@@ -37,7 +39,7 @@ class MyApp extends StatelessWidget {
         'ProgressBar':(BuildContext context) => ProgressBarWidget(),
         'API calling':(BuildContext context) => ApiCalling(),
         'Database':(BuildContext context) => DatabaseActivity(),
-
+        'Photo capture':(BuildContext context) => ImageCaptureActivity(),
       },
     );
   }
@@ -58,7 +60,7 @@ class MyHomePage extends StatelessWidget {
       "ProgressBar",
       "API calling",
       "Database",
-      "Photo capture"
+      "Photo capture",
     ];
 
     return Scaffold(
