@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:test_flutter/Edittext_widget.dart';
 import 'package:test_flutter/api_calling.dart';
 import 'package:test_flutter/appbar_widget.dart';
+import 'package:test_flutter/background_call.dart';
 import 'package:test_flutter/button_widget.dart';
 import 'package:test_flutter/container_widget.dart';
 import 'package:test_flutter/database_activity.dart';
@@ -13,6 +14,7 @@ import 'package:test_flutter/text_widget.dart';
 
 import 'column_widget.dart';
 import 'image_capture.dart';
+import 'notifications_generate.dart';
 
 void main() => runApp(MyApp());
 
@@ -40,6 +42,8 @@ class MyApp extends StatelessWidget {
         'API calling':(BuildContext context) => ApiCalling(),
         'Database':(BuildContext context) => DatabaseActivity(),
         'Photo capture':(BuildContext context) => ImageCaptureActivity(),
+        'Notifications':(BuildContext context) => NotificationHandler(),
+        'BackGround call': (BuildContext context) => BackGroundCall(),
       },
     );
   }
@@ -61,6 +65,8 @@ class MyHomePage extends StatelessWidget {
       "API calling",
       "Database",
       "Photo capture",
+      "Notifications",
+      "BackGround call"
     ];
 
     return Scaffold(
