@@ -29,6 +29,7 @@ samples, guidance on mobile development, and a full API reference.
 2. Database
 3. Photo capture
 4. Native Android background call  
+5. Notifications
 
 
 
